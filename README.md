@@ -5,7 +5,9 @@ The separate datasets are joined into one dataframe using numpy and pandas on th
 
 The dataset is then split into train and test datasets. The Gradient Boosting Classifier, Random Forest, and a simple linear logistic model were tested and measured for accuracy against a sample size of 0.3, with the Gradient Boosting Classifier showing the best performance with an accuracy of 0.76 after quick initial parameter tuning. 
 
-The script here only includes the implementation for Gradient Boosting Classifier. 
+The script here only includes the implementation for the Gradient Boosting Classifier model. 
+
+At the end, the script writes the produced predictions into a csv file, 'predictions.csv'.
 
 # ToDo
 - Try using XGBoost Random Forest and PyBrain Neural Network models for potential performance gains 
